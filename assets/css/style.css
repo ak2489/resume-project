@@ -38,7 +38,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 430px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -46,8 +46,8 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 400;
-    font-size: 60px;
+    font-weight: 600;
+    font-size: 65px;
     margin-top: 50px;
     color: #fff;
 }
@@ -56,12 +56,19 @@ header {
     font-family: "Oswald", sans-serif;
     font-weight: 250;
     font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #fff;
+    letter-spacing: 1px;
+
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0%;
+}
+
+.col {
+    padding-left: 0;
 }
 
 .menucontainer {
@@ -71,4 +78,39 @@ header {
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.menuitem {
+    height: 130px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 32px;
+    display: block;
+    color: #fafafa;
+    font-size: 32px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#nav {
+    margin: 0;
 }
